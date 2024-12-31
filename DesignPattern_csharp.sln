@@ -11,6 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiThread", "MultiThread"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlowProducerConsumer", "src\DataFlowProducerConsumer\DataFlowProducerConsumer.csproj", "{0D056DD4-2BF2-4608-8C77-6767B265DAFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{C663CE79-F330-468F-A443-862CBB2582DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{3F1B2E47-A4BB-4DB7-88FB-00793D595DD2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +36,10 @@ Global
 		{0D056DD4-2BF2-4608-8C77-6767B265DAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D056DD4-2BF2-4608-8C77-6767B265DAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D056DD4-2BF2-4608-8C77-6767B265DAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C663CE79-F330-468F-A443-862CBB2582DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C663CE79-F330-468F-A443-862CBB2582DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C663CE79-F330-468F-A443-862CBB2582DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C663CE79-F330-468F-A443-862CBB2582DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
